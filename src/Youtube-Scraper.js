@@ -104,9 +104,9 @@ class YoutubeScraper {
     video_entry.viewCount = this.calculate_view_count(
       videoRenderer?.viewCountText.simpleText
     );
-    video_entry.publishedText = videoRenderer.publishedTimeText.simpleText;
+    video_entry.publishedText = videoRenderer?.publishedTimeText?.simpleText;
     video_entry.published = this.calculate_published(
-      video_entry.publishedText,
+      video_entry?.publishedText,
       currentTime
     );
     if (

@@ -1,6 +1,6 @@
 {
-  "name": "@freetube/yt-trending-scraper",
-  "version": "2.0.1",
+  "name": "youtrending",
+  "version": "2.0.2",
   "description": "Identifies the currently trending videos on YouTube and returns all trending site information about every video without accessing the YouTube API.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FreeTubeApp/yt-trending-scraper.git"
+    "url": "https://github.com/uranashel44/yt-trending-scraper.git"
   },
   "publishConfig": {
     "access": "public"
@@ -28,7 +28,7 @@
     "youtube trends",
     "trends"
   ],
-  "author": "GilgusMaximus <software@lucahohmann.com>",
+  "author": "Ura Nashel <uranashel.apps@gmail.com>",
   "license": "GPLv3",
   "dependencies": {
     "axios": "^0.21.1"
